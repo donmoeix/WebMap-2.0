@@ -70,7 +70,7 @@ closer.onclick = function() {
 };
 var overlayPopup = new ol.Overlay({
     element: container,
-	autoPan: true
+	autoPan: false
 });
 map.addOverlay(overlayPopup)
     
